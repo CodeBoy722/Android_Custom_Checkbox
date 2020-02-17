@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/parent"
     tools:context=".MainActivity">
 
 
@@ -20,11 +21,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|start"
+            android:layout_marginStart="5dp"
             android:gravity="center|start"
             android:text="@string/custom_checkbox"
             android:textColor="@android:color/white"
-            android:textSize="24sp"
-            android:layout_marginStart="5dp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
 
@@ -52,7 +53,7 @@
             android:textSize="18sp" />
 
         <CheckBox
-
+            android:id="@+id/normal"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center|end"
@@ -72,7 +73,6 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <TextView
-            android:id="@+id/square"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -84,6 +84,7 @@
             android:textSize="18sp" />
 
         <CheckBox
+            android:id="@+id/square"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center|end"
@@ -154,7 +155,7 @@
             android:textSize="18sp" />
 
         <CheckBox
-            android:id="@+id/start"
+            android:id="@+id/star"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center|end"
