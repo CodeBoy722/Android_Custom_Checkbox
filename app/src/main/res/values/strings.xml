@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Custom Checkbox</string>
+    <string name="custom_checkbox">Custom CheckBox</string>
+    <string name="normal_checkbox">Normal Checkbox</string>
+    <string name="custom_square_checkbox">Custom Square Checkbox</string>
+    <string name="round_checkbox">Round Checkbox</string>
+    <string name="star_checkbox">Star Checkbox</string>
+    <string name="tick_checkbox">Tick Checkbox</string>
+    <string name="cancel_checkbox">Cancel Checkbox</string>
+</resources>
